@@ -1,0 +1,12 @@
+#doc-string
+#pep-8
+#python docstring are the string literals that appear right after the definition of a function,method,class or module
+def square(n):
+    '''takes in a number n, returns the square of n'''
+    print(n**2)  
+square(5)
+print(square.__doc__)
+#.__doc__ ka istemal krke isko acces bhi kar skte hai
+
+# for valid doc-string it should be right above the function body and right below the function defining
+
